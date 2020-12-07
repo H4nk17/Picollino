@@ -1,0 +1,129 @@
+/* CSS VARIABLES */
+:root
+{
+  --primary: #e3d200;
+  --light: #ededed;
+}
+
+html, body
+{
+	background-image: url("../Images/Background.jpg");
+	color: black;
+}
+
+h2
+{
+	text-align: center;
+	color: white;
+}
+
+a
+{
+	font-size: 2em;
+	margin-right: 30px;
+}
+
+.Bienvenue
+{
+	background-color: black;
+	opacity: 50%;
+}
+
+.Benvenuto
+{
+	background-color: black;
+	opacity: 50%;
+}
+
+.se
+{
+	padding-top: 50px;
+}
+
+#gammes
+{
+	border-bottom: solid var(--primary) 3px;
+	color: white;
+}
+
+.cards
+{
+	padding-top: 25px;
+	text-align: justify;
+}
+
+#histoire
+{
+	border-bottom: solid var(--primary) 3px;
+}
+
+.experience
+{
+	padding-top: 25px;
+	text-align: center;
+}
+
+.circle
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.btn-secondary
+{
+	background-color: var(--primary);
+	color: black;
+	border: 0px;
+}
+
+.one
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: solid var(--primary) 3px;
+	border-bottom: solid var(--primary) 3px;
+}
+
+.two
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: solid var(--primary) 3px;
+}
+
+.accordion
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.header1
+{
+	background-color: var(--light);
+}
+
+.colLapse
+{
+	color: black;
+}
+
+.card
+{
+	border-radius: 10px;
+	color: black;
+}
+
+.footer
+{
+  background: white;
+  color: black;
+  display: block;
+  width: 100%;
+}
+
+.RS
+{
+	height: 45px;
+	width: 45px;
+}
