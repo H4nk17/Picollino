@@ -1,0 +1,183 @@
+/* CSS VARIABLES */
+*
+{
+  --primary: #e3d200;
+  --light: #ededed;
+}
+
+@font-face
+{
+	font-family: "garamondbold";src: url('../Fonts/garamondbold.ttf');
+}
+
+html, body
+{
+	background-image: url("../Images/Background.jpg");
+	color: black;
+	font-family: garamondbold;
+}
+
+h2
+{
+	text-align: center;
+	color: white;
+}
+
+a
+{
+	font-size: 2em;
+	margin-right: 30px;
+}
+
+h3
+{
+	font-size: 35px;
+}
+
+.navbar
+{
+	border-bottom: solid var(--primary) 3px;
+}
+
+.Bienvenue
+{
+	background-color: black;
+	opacity: 50%;
+	font-size: 35px;
+}
+
+.se
+{
+	padding-top: 50px;
+}
+
+#Gammes
+{
+	border-bottom: solid var(--primary) 3px;
+}
+
+.cards
+{
+	padding-top: 25px;
+	text-align: justify;
+}
+
+#Histoire
+{
+	border-bottom: solid var(--primary) 3px;
+}
+
+.histoire
+{
+	padding-top: 50px;
+}
+
+.experience
+{
+	padding-top: 25px;
+	text-align: center;
+	font-size: 2em;
+}
+
+.circle
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.btn-secondary
+{
+	background-color: var(--primary);
+	color: black;
+	border: 0px;
+}
+
+.one
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: solid var(--primary) 3px;
+	border-bottom: solid var(--primary) 3px;
+}
+
+.two
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: solid var(--primary) 3px;
+}
+
+.accordion
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.card-header
+{
+	background-color: var(--primary);
+}
+
+.colLapse
+{
+	color: black;
+}
+
+.card
+{
+	border-radius: 10px;
+	color: black;
+}
+
+.footer
+{
+  width: 100%;
+  background-color: white;
+  margin: 0;
+}
+
+.sitefooter
+{
+	border: none;
+}
+
+.p1
+{
+	height: 45px;
+	width: 45px;
+}
+
+.p2
+{
+	height: 45px;
+	width: 45px;
+}
+
+.p3
+{
+	height: 45px;
+	width: 45px;
+}
+
+.p4
+{
+	height: 45px;
+	width: 45px;
+}
+
+.mapouter
+{
+	position: relative;
+	text-align: right;
+	height: 500px;
+	width: 500px;
+}
+
+.gmap_canvas
+{
+	overflow: hidden;
+	background: none!important;
+	height:500px;
+	width:400px;
+}
